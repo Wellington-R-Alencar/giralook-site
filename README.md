@@ -75,12 +75,12 @@ giralook-site/
 ├── sobre.html
 ├── contato.html
 ├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ ├── catalogo.js
-│ │ └── config.js
-│ └── img/
-│ ├── logo-giralook.png
-│ └── (outras imagens)
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   ├── catalogo.js
+│   │   └── config.js
+│   └── img/
+│       ├── logo-giralook.png
+│       └── (outras imagens)
 └── README.md
