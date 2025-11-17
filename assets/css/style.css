@@ -1,0 +1,193 @@
+:root {
+  --cor-primaria: #F2A53A;    /* dourado */
+  --cor-secundaria: #4FB3F2;  /* azul bebê */
+  --cor-fundo: #FFFFFF;
+  --cor-texto: #1A1A1A;
+  --cor-preto: #000000;
+  --cor-fundo-claro: #F7F7F7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+/* Topo */
+.topo {
+  background: var(--cor-preto);
+  color: var(--cor-primaria);
+}
+
+.topo-conteudo {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 12px 16px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.menu a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.menu a.ativo {
+  color: var(--cor-primaria);
+}
+
+/* Seções */
+.secao {
+  max-width: 1080px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+.secao-fundo-claro {
+  background: var(--cor-fundo-claro);
+  padding-block: 32px;
+}
+
+.secao h1, .secao h2 {
+  margin-bottom: 8px;
+}
+
+.secao-subtitulo {
+  color: #555;
+  max-width: 640px;
+}
+
+/* Hero */
+.hero {
+  max-width: 1080px;
+  margin: 24px auto 0;
+  padding: 24px 16px 40px;
+}
+
+.hero-texto h1 {
+  font-size: 2rem;
+  margin: 0 0 8px;
+}
+
+.hero-texto p {
+  max-width: 520px;
+  margin-bottom: 16px;
+}
+
+.hero-botoes {
+  display: flex;
+  gap: 12px;
+}
+
+/* Botões */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+}
+
+.btn-primario {
+  background: var(--cor-primaria);
+  color: #000;
+}
+
+.btn-secundario {
+  background: var(--cor-secundaria);
+  color: #FFF;
+}
+
+.btn-link {
+  color: var(--cor-primaria);
+  text-decoration: none;
+}
+
+/* Categorias */
+.grid-categorias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card-categoria {
+  border-radius: 16px;
+  border: 1px solid #F2A53A33;
+  padding: 16px;
+  background: #FFF;
+}
+
+/* Catálogo */
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card-produto {
+  background: #FFF;
+  border-radius: 16px;
+  border: 1px solid #F2A53A33;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.04);
+  padding: 10px;
+}
+
+.card-produto img {
+  width: 100%;
+  border-radius: 12px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.card-produto h3 {
+  font-size: 1rem;
+  margin: 8px 0 4px;
+}
+
+.card-produto .categoria {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.card-produto .preco {
+  color: var(--cor-primaria);
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* Lista fluxo */
+.lista-fluxo {
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+/* Rodapé */
+.rodape {
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  padding: 12px;
+  margin-top: 40px;
+}
