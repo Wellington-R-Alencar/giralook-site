@@ -2,26 +2,39 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Catálogo - Giralook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+  <title>Vitrine - Giralook Cuiabá</title>
+  <meta name="description" content="Vitrine digital da Gira Look: peças novas e seminovas selecionadas. Para disponibilidade atual, fale com a loja pelo WhatsApp.">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="topo">
     <div class="topo-conteudo">
-      <img src="assets/img/logo-giralook.png" alt="Giralook" class="logo">
-      <nav class="menu">
-        <a href="index.html">Início</a>
-        <a href="catalogo.html" class="ativo">Catálogo</a>
+      <nav class="menu menu-esquerda" aria-label="Menu principal">
+        <a href="index.html" class="ativo">Início</a>
         <a href="desapego.html">Desapego</a>
         <a href="sobre.html">Sobre</a>
+      </nav>
+
+      <a href="index.html" class="logo-centro" aria-label="Voltar para o início">
+        <img src="assets/img/logo-franquia-giralook.png" alt="Gira Look Cuiabá">
+      </a>
+
+      <nav class="menu menu-direita" aria-label="Atalhos">
         <a href="contato.html">Contato</a>
+        <a href="https://wa.me/5565993289806" target="_blank" rel="noopener noreferrer" class="btn-menu-whats">WhatsApp</a>
       </nav>
     </div>
   </header>
 
-  <main class="secao">
-    <h1>Catálogo Giralook</h1>
-    <p class="secao-subtitulo">Peças novas e semi-novas com menor rotatividade, selecionadas para a vitrine digital.</p>
+  <main id="conteudo" class="secao">
+    <h1>Vitrine Giralook</h1>
+    <p class="secao-subtitulo">As peças são únicas e a disponibilidade muda todos os dias. Para saber o que está disponível hoje, fale com a Gira Look no WhatsApp ou acompanhe o Instagram.</p>
+<div class="desapego-acoes"><a class="btn btn-whatsapp" href="https://wa.me/5565993289806?text=Ol%C3%A1!%20Gostaria%20de%20saber%20sobre%20as%20pe%C3%A7as%20dispon%C3%ADveis%20hoje%20na%20Gira%20Look." target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a></div>
 
     <div id="lista-produtos" class="grid-produtos">
       <!-- Cards gerados via JS -->
