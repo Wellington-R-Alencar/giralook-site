@@ -1480,6 +1480,11 @@ a:focus-visible, button:focus-visible{
   background-position: center bottom, center center;
   background-repeat: no-repeat, no-repeat;
   background-size: 100% auto, cover;
+  
+  margin-top: -40px;                 /* igual ao radius do .topo */
+  padding-top: calc(100px + 40px);   /* soma o que você já usa + 40px */
+  position: relative;
+  z-index: 0;
 }
 
 .hero-container {
