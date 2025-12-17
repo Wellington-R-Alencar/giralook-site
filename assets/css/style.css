@@ -610,7 +610,7 @@ body {
 .etapas-desapego {
   list-style: none;
   padding: 0;
-  margin: 20px 0 0;
+  margin: 60px 0 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 16px;
@@ -1650,7 +1650,22 @@ a:focus-visible, button:focus-visible{
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 12px;
 }
+
+.aviso-desapego {
+  margin: 16px auto 16px;
+  max-width: 720px;
+  background: #fff7e6;
+  border-left: 5px solid #F2A53A;
+  padding: 14px 16px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 70px;
+}
+
 
 /* bônus: deixa os cards um pouco “mais premium” no conjunto */
 .secao.desapego-etapas > .etapas-desapego li{
@@ -1675,6 +1690,15 @@ a:focus-visible, button:focus-visible{
     gap: 20px;
   }
 }
+
+
+
+/* garante que os cards não fiquem colados */
+.etapas-desapego{
+  margin-top: 32;
+}
+
+
 
 /* ===== BANNERS FULL-WIDTH (Sobre / Contato) ===== */
 /* Substitui degradês por banners da pasta assets/img */
